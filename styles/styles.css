@@ -135,3 +135,20 @@ nav ul.menu li{
 	display: inline-block;
 	font: 13px 'Cabin', sans-serif;
 }
+
+
+/*slider*/
+
+section.slider .homepage-slider{
+	display: flex;
+	justify-content: space-between;
+}
+
+section.slider .homepage-slider .item-slider {
+	width: calc(33.3333% - 13px);
+}
+
+section.slider .homepage-slider .item-slider img {
+	max-width: 100%;
+	height: auto;
+}
