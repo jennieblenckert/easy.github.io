@@ -46,3 +46,51 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+.wrapper {
+	width: 96%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+header .top-bar{
+	background: #141518;
+
+	color: #fff;
+
+}
+
+header .top-bar .wrapper {
+	height: 58px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	color: inherit;
+}
+
+.social {
+	font-size: 14px;
+}
+
+.social a {
+	margin-right: 20px;
+}
+
+.search form input.search-form {
+	border: none;
+	background: transparent;
+	font-size: 13px;
+	color: #989797;
+	font: italic 13px Open Sans, sans-serif;
+	width: 130px;
+}
+
+.button {
+	background: transparent;
+	border: none;
+	color: #fff;
+}
