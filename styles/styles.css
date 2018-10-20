@@ -47,7 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+a, a:hover {
+	text-decoration: none;
+}
 
+/*top-bar*/
 .wrapper {
 	width: 96%;
 	max-width: 1170px;
@@ -93,4 +97,36 @@ a {
 	background: transparent;
 	border: none;
 	color: #fff;
+}
+
+/*logo*/
+
+.logo {
+	text-align: center;
+	height: 210px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*nav*/
+nav {
+	height: 63px;
+	border-bottom: 1px solid #e7e7e7;
+	border-top: 1px solid #e7e7e7;
+}
+
+nav a {
+	font: 13px 'Cabin', sans-serif;
+	color: #141417;
+	text-transform: uppercase;
+	align-items: center;
+	padding: 25px 22px;
+	display: block;
+	min-height: 63px;
+
+}
+
+nav ul.menu li{
+	display: inline-block;
 }
