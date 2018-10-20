@@ -117,7 +117,6 @@ nav {
 }
 
 nav a {
-	font: 13px 'Cabin', sans-serif;
 	color: #141417;
 	text-transform: uppercase;
 	align-items: center;
@@ -127,6 +126,12 @@ nav a {
 
 }
 
+nav ul.menu {
+	text-align: center;
+}
+
+
 nav ul.menu li{
 	display: inline-block;
+	font: 13px 'Cabin', sans-serif;
 }
