@@ -146,9 +146,50 @@ section.slider .homepage-slider{
 
 section.slider .homepage-slider .item-slider {
 	width: calc(33.3333% - 13px);
+	position: relative;
 }
+
+section.slider .homepage-slider .item-slider .mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
 
 section.slider .homepage-slider .item-slider img {
 	max-width: 100%;
 	height: auto;
+}
+
+section.slider .homepage-slider .item-slider span.category {
+	font: 12px/24px 'Cabin', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+
+}
+
+section.slider .homepage-slider .item-slider span.category::before{
+	content: "-";
+	margin-right: 15px;
+}
+
+section.slider .homepage-slider .item-slider span.category::after{
+	content: "-";
+	margin-left: 15px;
+}
+
+section.slider .homepage-slider .item-slider h2.title{
+	font: 30px/40px 'Lato', sans-serif;
+	margin-bottom: 20px;
+}
+
+section.slider .homepage-slider .item-slider a{
+	font: 34px 'Lato', sans-serif;
 }
