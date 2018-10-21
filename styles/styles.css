@@ -193,3 +193,17 @@ section.slider .homepage-slider .item-slider h2.title{
 section.slider .homepage-slider .item-slider a{
 	font: 34px 'Lato', sans-serif;
 }
+
+main .wrapper {
+	margin-top: 85px;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.content {
+	width: 67.52%
+}
+
+aside {
+	width: 27.35%
+}
