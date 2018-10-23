@@ -201,7 +201,8 @@ main .wrapper {
 }
 
 section.content {
-	width: 67.52%
+	width: 67.52%;
+	margin-bottom: 90px;
 }
 
 aside {
@@ -304,4 +305,156 @@ h3 {
 .trending .trending-list article img{
 	max-width: 100%;
 	height: auto;
+}
+
+.trending-heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.trending-heading .line {
+	flex-grow: 1;
+	height: 1px;
+	background: #e7e7e7;
+}
+
+.trending-heading h3.trending-title {
+	text-transform: uppercase;
+	padding-left: 30px;
+	padding-right: 30px;
+	font: 16px/23px 'Cabin', sans-serif;
+	letter-spacing: 0.15em;
+}
+
+
+.pagination {
+	display: inline-block;
+	font-size: 0;
+}
+
+.pagination li.active {
+	font: 12px/22px 'Cabin', sans-serif;
+	background-color: #b08672;
+	color: #fff;
+	text-align: center;
+	line-height: 37px;
+}
+
+.pagination li {
+	font: 12px/22px 'Cabin', sans-serif;
+	color: #000;
+	width: 37px;
+	height: 37px;
+	border: 1px solid #e7e7e7;
+	text-align: center;
+	line-height: 37px;
+	float: left;
+	margin-right: 8px;
+}
+
+.pagination li a {
+	display: block;
+}
+
+.sidebar .widget {
+	margin-bottom: 55px;
+}
+
+.sidebar .widget.widget-about {
+	text-align: center;
+}
+
+.sidebar .widget.widget-about .image-holder{
+	margin-bottom: 40px;
+
+}
+.sidebar .widget.widget-about img{
+	border-radius: 100%;
+}
+
+.sidebar .widget.widget-about p {
+	font: 14px/24px Open Sans, sans-serif;
+	color: #7e7e7e;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.sidebar .widget.widget-about .social-profiles a {
+	color: #262626;
+	margin-right: 5px;
+}
+
+.sidebar .widget.widget-ads figure {
+	position: relative;
+}
+
+.sidebar .widget.widget-ads figure figcaption{
+	position: absolute;
+	top: 33px;
+	left: 90px;
+	width: 100%;
+	height: 100%;
+}
+
+.sidebar .widget.widget-ads figure figcaption .category{
+	height: 33px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: rgba(20,21,24, 0.2);
+	font: 14px/33px 'Cabin',sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #fff;
+	display: inline-block;
+}
+
+
+footer {
+	width: 100%;
+	background: #141518;
+}
+
+footer .insta-feed {
+	display: flex;
+}
+
+footer .insta-feed .item{
+	width: 12.5%;
+}
+
+footer .insta-feed .item img {
+	width: 100%;
+	height: auto;
+}
+
+footer .insta-feed a {
+	display: block;
+}
+
+
+
+footer .footer-social {
+	background: #141518;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+footer .footer-social .wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+
+}
+
+footer .footer-social .wrapper .item-social {
+	padding-right: 40px;
+	padding-left: 40px;
+	text-align: center;
+	font: 12px/40px 'Cabin', sans-serif;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #fff;
 }
