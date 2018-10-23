@@ -410,6 +410,65 @@ h3 {
 	display: inline-block;
 }
 
+.widget-popular .line-title {
+	letter-spacing: 0.15em;
+	font: 13px/23px 'Cabin', sans-sefif;
+	text-transform: uppercase;
+	color: #262626;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.widget-popular .line-title h3.widget-title {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.widget-popular .line-title .line{
+	flex-grow: 1;
+	height: 1px;
+	background: #e7e7e7;
+}
+
+.list-posts .post {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.list-posts .post .img-holder  {
+	position: relative;
+}
+.list-posts .post .img-holder .number{
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	color: #262626;
+	font: 10px/15px 'Cabin', sans-serif;
+	text-align: center;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.list-posts .post .post-data {
+	padding-top: 11px;
+	padding-left: 19px;
+}
+
+.list-posts .post .post-data h4 {
+	color: #262626;
+	font: 16px/22px 'Lato',sans-serif;
+	margin-bottom: 8px;
+}
+.list-posts .post .post-data span.date {
+	font: 11px 'Cabin', sans-serif;
+	text-transform: uppercase;
+	color: #a5a5a5;
+	display: block;
+}
+
 
 footer {
 	width: 100%;
